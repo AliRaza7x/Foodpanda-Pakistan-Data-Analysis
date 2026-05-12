@@ -1,19 +1,5 @@
 # 🐼 Foodpanda Pakistan — Data Analysis & Strategic Insights
 
-> **Data Science Fundamentals | BSCS 6th Semester — Group 7 | KSBL 2026**  
-> Instructor: Mr. Tariq Aijaz
-
----
-
-## 👥 Group Members
-
-| Name | Student ID |
-|---|---|
-| Ali Raza | B04-0923-000003 |
-| Ajwad Muhammad Waseem | B04-0923-000004 |
-| Sahibzada Syed Mohiuddin | B04-0923-000056 |
-| Abdul Basit | B04-0923-000032 |
-
 ---
 
 ## 📌 Project Overview
@@ -37,27 +23,18 @@ Using Python-based exploratory data analysis and an interactive Power BI dashboa
 ## 📁 Repository Structure
 
 ```
-foodpanda-analysis/
+Foodpanda-Pakistan-Data-Analysis/
 │
 ├── data/
 │   ├── Foodpanda_Analysis_Dataset.csv       # Raw dataset (6,000 records)
-│   ├── Foodpanda_Clean.csv                  # Q2 cleaned dataset (4,533 records)
-│   └── Foodpanda_Clean_Q1.csv               # Q1 cleaned dataset (6,000 records)
 │
 ├── notebooks/
-│   ├── Q1_Analysis.ipynb                    # Delivery Performance analysis
-│   ├── Foodpanda_Project.ipynb              # Customer Churn analysis (Q2)
-│   └── projQues3.ipynb                      # Revenue & Payment analysis (Q3)
+│   ├── Q1_Analysis.ipynb                    # Delivery Performance analysis (Q1)
+│   ├── Q2_Analysis.ipynb                    # Customer Churn analysis (Q2)
+│   └── Q3_Analysis.ipynb                    # Revenue & Payment analysis (Q3)
 │
 ├── dashboard/
-│   └── Foodpanda_Dashboard.pbix             # Power BI dashboard (3 pages)
-│
-├── presentation/
-│   └── DSF_Foodpanda_Presentation.pdf       # Final presentation slides
-│
-├── report/
-│   └── Foodpanda_Data_Analysis_Report.pdf   # Full project report
-│
+│   └── Foodpanda Analysis - Dashboards.pbix             # Power BI dashboard (3 pages)
 └── README.md
 ```
 
@@ -111,8 +88,8 @@ pip install pandas numpy matplotlib seaborn jupyter
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/foodpanda-analysis.git
-cd foodpanda-analysis
+git clone https://github.com/your-username/Foodpanda-Pakistan-Data-Analysis.git
+cd Foodpanda-Pakistan-Data-Analysis
 ```
 
 ### Run the notebooks
@@ -265,8 +242,6 @@ The dashboard is structured across **3 dedicated pages**, one per business quest
 
 ## 📄 License
 
-This project was developed for academic purposes as part of the Data Science Fundamentals course at KSBL. All data used is for educational use only.
+This project was developed for academic purposes as part of the Data Science Fundamentals course. All data used is for educational use only.
 
 ---
-
-> *Data Science Fundamentals | KSBL 2026 | BSCS 6th Semester — Group 7*
